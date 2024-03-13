@@ -710,6 +710,9 @@
       "id": "international",
       "files": [
         {
+          "path": "json/capslock_select_next_source_in_input_menu.json"
+        },
+        {
           "path": "json/left_cmd-EN-right_cmd-CH-right_option-JA.json"
         },
         {

@@ -1,0 +1,30 @@
+{
+  "title": "Caps Lock → Next input source in Input menu (⌃⌥Space)",
+  "rules": [
+    {
+      "description": "Caps Lock → Next input source in Input menu (⌃⌥Space)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+                "optional": [
+                    "caps_lock"
+                ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "spacebar",
+              "modifiers": [
+                "left_control",
+                "left_option"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
